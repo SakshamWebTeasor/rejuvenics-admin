@@ -1,0 +1,299 @@
+.main-page h5 {
+  font-weight: 700;
+}
+.category-btn a {
+  text-decoration: none;
+  color: #444;
+  border-radius: 5px;
+  padding: 10px 10px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+.category-btn .btn.btn-danger {
+  background: #ff7e7e;
+  border-color: #ff7e7e;
+  color: #fff;
+  font-size: 16px;
+  padding: 12px 25px;
+}
+.category-btn .btn.btn-success {
+  background: #0e9f6e;
+  border-color: #0e9f6e;
+  color: #fff;
+  font-size: 16px;
+  padding: 12px 25px;
+}
+.order-box.py-4.mt-4 .form-control {
+  background: #f4f5f7;
+  font-size: 14px;
+  height: 50px;
+}
+.main-page .form-check .form-check-input {
+  float: unset;
+  margin-left: -1.5em;
+}
+.main-page .react-switch-handle {
+  height: 20px !important;
+  width: 20px !important;
+  top: 4px !important;
+  left: 5px !important;
+  right: 5px !important;
+}
+.react-switch-bg {
+  height: 28px !important;
+  font-size: 13px;
+  line-height: 2.1;
+}
+.text-white.text-start.px-4.py-6.all {
+  padding: 0 !important;
+  margin: 0 !important;
+  position: absolute;
+  left: 20px;
+}
+.only {
+  position: absolute;
+  left: -46px;
+  font-size: 12px;
+}
+.table-icon span {
+  color: #999;
+  font-size: 20px;
+  padding: 0 8px;
+}
+.table-bg-top td {
+  background: #f2f2f2;
+  line-height: 0;
+  padding: 6px 8px;
+  font-size: 14px;
+  height: 42px;
+  color: #707275;
+  text-transform: uppercase;
+}
+.table-data .table > tbody {
+  vertical-align: middle;
+  font-size: 14px;
+}
+.table-data {
+  border: 1px solid #ececec;
+}
+.form-check-input:checked {
+  background-color: #2f855a;
+  border-color: #2f855a;
+}
+.table-data tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+  height: 65px;
+}
+.table-bg-top {
+  height: 42px;
+}
+.table > :not(caption) > * > * {
+  border-color: #f4f4f4;
+}
+.form-control:focus {
+  border-color: #ddd;
+  box-shadow: none;
+}
+.form-check-input:focus {
+  box-shadow: none;
+}
+.offcanvas-header {
+  background: #f9fafb;
+  padding: 2rem;
+  border-bottom: 1px solid #eee;
+}
+.offcanvas,
+.offcanvas-lg,
+.offcanvas-md,
+.offcanvas-sm,
+.offcanvas-xl,
+.offcanvas-xxl {
+  --bs-offcanvas-width: 970px;
+}
+.add-category-offcanvas p {
+  font-size: 14px;
+  margin: 0;
+}
+.offcanvas-header .btn-close {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3),
+    0 2px 4px -1px rgba(0, 0, 0, 0.08);
+  border-radius: 50%;
+  font-size: 11px;
+  width: 30px;
+  height: 30px;
+}
+.btn-close {
+  background: #f000 url("/close.svg") center/1em auto no-repeat;
+  opacity: 1;
+}
+.form-control {
+  background: #f4f5f7;
+  height: 52px;
+}
+.form-select {
+  height: 52px;
+  background: #f4f5f7;
+  position: relative;
+}
+.file-upload .form-control {
+  border: 2px dashed #ccc;
+  height: 150px;
+}
+.file-upload .form-control {
+  border: 2px dashed #ccc;
+  height: 150px;
+  font-size: 0;
+  background: transparent;
+  position: relative;
+  z-index: 1;
+}
+.file-upload {
+  position: relative;
+  background: #f4f5f7;
+}
+.file-icon {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  left: 0;
+  text-align: center;
+  z-index: 0;
+  background: #f4f5f7;
+}
+.file-icon svg {
+  color: #0e9f6e;
+  font-size: 30px;
+}
+.file-upload small {
+  color: #aeaeae;
+  font-size: 12px;
+}
+.footer-offcanvas {
+  padding: 2rem;
+  background: #f9fafb;
+  border-top: 1px solid #eee;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  z-index: 99999;
+  left: 0;
+  text-align: center;
+}
+.footer-offcanvas .btn-light {
+  background: #e5e7eb;
+  width: 47%;
+  padding: 0.8rem;
+  color: #e53e3e;
+  font-size: 15px;
+  width: 47%;
+  margin: 0 10px;
+}
+.footer-offcanvas .btn-greens {
+  background: #0e9f6e;
+  width: 47%;
+  padding: 0.8rem;
+  color: #fff;
+  font-size: 15px;
+  margin: 0 10px;
+  border: none;
+}
+.file-upload .form-control {
+  opacity: 0;
+}
+.file-upload {
+  border: 2px dashed #e6e6e6;
+}
+.offcanvas-body {
+  padding: 2rem;
+}
+.modal-footers .btn-greens {
+  background: #0e9f6e;
+  padding: 0.8rem;
+  color: #fff;
+  font-size: 15px;
+  margin: 0 10px;
+  border: none;
+}
+.modal-footers .btn-light {
+  background: #e5e7eb;
+  padding: 0.8rem;
+  color: #333;
+  font-size: 15px;
+  width: 47%;
+  margin: 0 10px;
+}
+.modal-footers.py-2.modal-footer {
+  justify-content: center;
+}
+.modal {
+  top: 250px;
+}
+.category-btn .form-control {
+  background: transparent !important;
+  font-size: 0 !important;
+  height: 43px !important;
+  position: relative;
+  z-index: 99999;
+  padding: 0;
+}
+.demo {
+  position: relative;
+  width: 14%;
+  font-size: 14px;
+  color: #484848;
+}
+.icon-upload-file {
+  position: absolute;
+  top: 9px;
+  right: 0;
+  left: 0;
+  text-align: center;
+}
+.category-btn {
+  display: flex;
+  align-items: center;
+}
+.table-data .table {
+  margin: 0;
+}
+.pagination-section {
+  background: #fff;
+  padding: 2rem;
+  border: 1px solid #eee;
+  border-top: 0;
+}
+.pagination-section .pagination {
+  margin: 0;
+  justify-content: end;
+}
+.table-data {
+  border: 1px solid #ececec;
+  border-bottom: 0;
+}
+.page-item.active .page-link {
+  background: #0e9f6e;
+  border-color: #0e9f6e;
+  color: #fff;
+}
+.page-item .page-link {
+  color: #0e9f6e;
+  border: 0;
+  border-radius: 5px;
+}
+input[type="file"]::file-selector-button {
+  border: 2px solid #6c5ce7;
+  padding: 0.2em 0.4em;
+  border-radius: 0.2em;
+  background-color: #a29bfe;
+  transition: 1s;
+}
+
+input[type="file"]::file-selector-button:hover {
+  background-color: #81ecec;
+  border: 2px solid #00cec9;
+}

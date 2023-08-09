@@ -1,0 +1,59 @@
+.sidebar-page ul {
+  list-style: none;
+  padding: 0;
+}
+.sidebar-page {
+  padding: 1rem 2rem;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  background: #fff;
+  min-height: 100%;
+  position: fixed;
+  width: 320px;
+}
+.sidebar-page ul li a {
+  color: #707275;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 15px;
+}
+.sidebar-page ul li a span {
+  margin-right: 10px;
+  font-size: 20px;
+}
+.sidebar-page ul li {
+  margin: 20px 0;
+  position: relative;
+}
+.submenu {
+  display: none;
+}
+.sidebar-page ul li:focus-within .submenu {
+  display: block;
+  padding-left: 2.4rem;
+  margin: 10px 0;
+}
+.sidebar-page ul li:focus .submenu ul li {
+  margin: 10px 0;
+}
+.submenu ul li::after {
+  content: "";
+  width: 8px;
+  height: 2px;
+  background: #b9b9b9;
+  position: absolute;
+  left: -12px;
+  top: 13px;
+}
+.arrow-next {
+  margin-left: 1rem;
+}
+.submenu ul li {
+  margin: 0;
+}
+.submenu ul li a {
+  font-size: 15px;
+}
+.arrow-rotated svg {
+  rotate: 90deg;
+  margin-left: 15px;
+}

@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+body {
+  overflow-x: hidden;
+  background: #f9fafb;
+  font-family: "Open Sans", sans-serif;
+}
+
+.login-page {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  margin-top: 7rem;
+  border: 1px solid #f7f7f7;
+  border-radius: 10px;
+}
+.login-page img {
+  border-radius: 10px 0 0 10px;
+  object-fit: cover;
+}
+.form-section {
+  padding: 3rem;
+}
+.form-section .form-control {
+  border-color: #e5e7eb;
+  background: #f4f5f7;
+  height: 48px;
+  border-radius: 4px;
+}
+.form-section .form-control:focus {
+  box-shadow: none;
+}
+.form-section .w-100.btn.btn-success {
+  background: #0e9f6e;
+  border: 0;
+  padding: 12px;
+}
+.form-section .w-100.mb-3.fb.btn.btn-light {
+  background: #f4f5f7;
+  padding: 15px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.form-section .w-100.mb-3.fb.btn.btn-light:hover {
+  background: #1c64f2;
+  color: #fff;
+  border-color: #1c64f2;
+}
+.form-section .w-100.google.btn.btn-light {
+  background: #f4f5f7;
+  padding: 15px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.form-section .w-100.google.btn.btn-light:hover {
+  background: #f05252;
+  color: #fff;
+  border-color: #f05252;
+}
+.bottom-link a {
+  color: #0e9f6e;
+  font-size: 14px;
+  text-decoration: none;
+}
+.bottom-link {
+  margin-top: 2rem;
+}
+.form-section .form-select {
+  border-color: #e5e7eb;
+  background: #f4f5f7;
+  height: 48px;
+  border-radius: 4px;
+}
+.form-section .form-check-input:checked {
+  background-color: #0e9f6e;
+  border-color: #0e9f6e;
+}
